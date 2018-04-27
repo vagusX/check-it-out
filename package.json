@@ -1,0 +1,24 @@
+{
+  "name": "checkitout",
+  "version": "1.0.0",
+  "description": "Yo Yo Check it Out",
+  "main": "index.js",
+  "scripts": {},
+  "author": "vagusX<vagusxl@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^1.0.0-rc.2",
+    "lerna": "^2.11.0",
+    "lint-staged": "^7.0.5",
+    "prettier": "^1.12.1"
+  },
+  "husky": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
