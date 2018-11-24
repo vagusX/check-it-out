@@ -1,0 +1,28 @@
+{
+  "name": "fuse-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node fuse.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-plugin-jsx-v-model": "^2.0.3",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-latest": "^6.24.1",
+    "fuse-box": "^3.2.2",
+    "typescript": "^2.9.2",
+    "vue-class-component": "^6.2.0"
+  },
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-property-decorator": "^6.1.0"
+  }
+}
